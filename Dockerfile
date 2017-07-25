@@ -7,4 +7,5 @@ RUN dnf -yq update &&\
 	figlet \
 	git-core \
 	mc \
+	moreutils \
 	wget
