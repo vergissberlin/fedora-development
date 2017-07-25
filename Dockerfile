@@ -5,7 +5,7 @@ RUN dnf -yq update &&\
 	bats \
 	curl \
 	figlet \
+	findutils \
 	git-core \
 	mc \
-	moreutils \
 	wget
