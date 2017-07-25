@@ -1,7 +1,7 @@
 FROM fedora
 
-RUN 	dnf update &&\
-	dnf install -y \
+RUN dnf update &&\
+    dnf install -q \
 	bats \
 	curl \
 	figlet \
