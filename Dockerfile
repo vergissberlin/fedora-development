@@ -7,5 +7,4 @@ RUN dnf -yq update &&\
 	figlet \
 	git-core \
 	mc \
-	wget \
-	xargs
+	wget
