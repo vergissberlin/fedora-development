@@ -7,5 +7,7 @@ RUN dnf -yq update &&\
 	figlet \
 	findutils \
 	git-core \
+	make \
 	mc \
-	wget
+	wget \
+	vim
