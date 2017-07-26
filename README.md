@@ -36,3 +36,24 @@
 ### Docker registry
 
 https://hub.docker.com/r/vergissberlin/fedora-development/
+
+## Similar images
+
+| Name                  | Git       | Docker       |
+| --------------------- | --------- | ------------ |
+| alpine-development    | [git][10] | [docker][15] |
+| centos-development    | [git][20] | [docker][25] |
+| debian-development    | [git][30] | [docker][35] |
+| opensuse-development  | [git][50] | [docker][55] |
+| ubuntu-development    | [git][60] | [docker][65] |
+
+[10]: https://github.com/vergissberlin/alpine-development
+[15]: https://hub.docker.com/r/vergissberlin/alpine-development/
+[20]: https://github.com/vergissberlin/centos-development
+[25]: https://hub.docker.com/r/vergissberlin/centos-development/
+[30]: https://github.com/vergissberlin/debian-development
+[35]: https://hub.docker.com/r/vergissberlin/debian-development/
+[50]: https://github.com/vergissberlin/opensuse-development
+[55]: https://hub.docker.com/r/vergissberlin/opensuse-development/
+[60]: https://github.com/vergissberlin/ubuntu-development
+[65]: https://hub.docker.com/r/vergissberlin/ubuntu-development/
