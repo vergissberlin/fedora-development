@@ -1,14 +1,18 @@
 # fedora-development
 
-    Docker fedora image to use for development, testing and deployment.
+> Docker fedora image to use for development, testing and deployment.
 
-| Docker base image | Docker image            | Tag            |
-| ----------------- | ----------------------- | -------------- |
-| [fedora][1]       | [fedora-development][2] | [latest][3]    |
+
+
+
+| Docker base image | Docker image            | Tag            | Size   |
+| ----------------- | ----------------------- | -------------- | ------ |
+| [fedora][1]       | [fedora-development][2] | [latest][3]    | ![][4] |
 
 [1]: https://hub.docker.com/_/fedora/
 [2]: https://hub.docker.com/r/vergissberlin/fedora-development/
 [3]: https://hub.docker.com/r/vergissberlin/fedora-development/tags/
+[4]: https://images.microbadger.com/badges/image/vergissberlin/fedora-development.svg
 
 ## Promise
 
