@@ -2,18 +2,18 @@
 
 > Docker fedora image to use for development, testing and deployment.
 
-
-
-
-| Docker base image | Docker image            | Tag            | Size   | Pulls  |
-| ----------------- | ----------------------- | -------------- | ------ | ------ |
-| [fedora][1]       | [fedora-development][2] | [latest][3]    | ![][4] | ![][5] |
+| Docker base image | Docker image            | Tag            | Size   | Pulls  | Build  | Status |
+| ----------------- | ----------------------- | -------------- | ------ | ------ | ------ | ------ |
+| [fedora][1]       | [fedora-development][2] | [latest][3]    | ![][4] | ![][5] | ![][6] | ![][7] |
 
 [1]: https://hub.docker.com/_/fedora/
 [2]: https://hub.docker.com/r/vergissberlin/fedora-development/
 [3]: https://hub.docker.com/r/vergissberlin/fedora-development/tags/
 [4]: https://images.microbadger.com/badges/image/vergissberlin/fedora-development.svg
-[5]: https://img.shields.io/docker/pulls/vergissberlin/fedora-development.svg
+[5]: https://img.shields.io/docker/pulls/vergissberlin/fedora-development.svg?style=flat-square
+[6]: https://img.shields.io/docker/automated/vergissberlin/fedora-development.svg?style=flat-square
+[7]: https://img.shields.io/docker/build/vergissberlin/fedora-development.svg?style=flat-square
+
 
 ## Promise
 
