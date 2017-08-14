@@ -9,5 +9,6 @@ RUN dnf -yq update &&\
 	git-core \
 	make \
 	mc \
+	siege \
 	wget \
 	vim
