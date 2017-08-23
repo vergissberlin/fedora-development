@@ -6,7 +6,7 @@ RUN dnf -yq update &&\
 	curl \
 	figlet \
 	findutils \
-	git-core \
+	git \
 	make \
 	mc \
 	siege \
