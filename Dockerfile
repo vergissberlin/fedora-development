@@ -9,6 +9,15 @@ RUN dnf -yq update &&\
     	git \
     	make \
     	mc \
+      powerline \
+      powerline-fonts \
+      tmux \
+      tmux-powerline \
     	siege \
     	wget \
-    	vim
+    	vim \
+      vim-powerline
+
+WORKDIR /root
+
+COPY setup /
