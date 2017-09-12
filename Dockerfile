@@ -1,23 +1,25 @@
 FROM fedora
 
+WORKDIR /root
+
 RUN dnf -yq update &&\
     dnf install -yq \
-    	bats \
-    	curl \
-    	figlet \
-    	findutils \
-    	git \
-    	make \
-    	mc \
+      bats \
+      curl \
+      figlet \
+      findutils \
+      git \
+      make \
+      mc \
       powerline \
       powerline-fonts \
       tmux \
       tmux-powerline \
-    	siege \
-    	wget \
-    	vim \
+      siege \
+      wget \
+      vim \
       vim-powerline
 
-WORKDIR /root
+RUN pip install powerline-gitstatus
 
 COPY setup /

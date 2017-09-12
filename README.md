@@ -35,6 +35,7 @@
 | mc            | GNU Midnight Commander (also known as mc) is a free cross-platform orthodox file manager.                  |
 | powerline     | Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome and Qtile.  |
 | powerline-fonts | Patched fonts for Powerline users. |
+| powerline-gitstatus | A Powerline segment for showing the status of a Git working copy. |
 | siege         | Siege is an open source regression test and benchmark utility. It can stress test a single URL with a user defined number of simulated users, or it can read many URLs into memory and stress them simultaneously. |
 | tmux          | tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal. |
 | tmux-powerline | Statusbar configuration for tmux that looks like vim-powerline and consist of dynamic segments. |
