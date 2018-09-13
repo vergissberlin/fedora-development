@@ -18,8 +18,9 @@ RUN dnf -yq update &&\
       siege \
       wget \
       vim \
-      vim-powerline
+      vim-powerline && \
+      dnf clean all
 
-RUN pip install powerline-gitstatus
+RUN pip install powerline-gitstatus && rm -rf ~/.cache/pip
 
 COPY setup /
