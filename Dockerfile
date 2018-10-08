@@ -11,6 +11,7 @@ RUN dnf -yq update &&\
       git \
       make \
       mc \
+      mock \
       powerline \
       powerline-fonts \
       tmux \
